@@ -1,5 +1,5 @@
   // URL base de tu API
-  const apiUrl = 'http://127.0.0.1:5000'; // Cambia la URL según la ubicación de tu API
+  const apiUrl = 'http://api-vvw7.onrender.com'; // Cambia la URL según la ubicación de tu API
 
   // Función para crear un usuario
   async function crearUsuario(usuario) {
