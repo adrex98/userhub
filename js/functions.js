@@ -24,7 +24,6 @@ async function agregarUsuario() {
         document.getElementById('apellido2').value = '';
         document.getElementById('fecha-nacimiento').value = '';
 
-        alert('Usuario creado exitosamente');
     } catch (error) {
         console.error('Error al agregar el usuario:', error);
     }
