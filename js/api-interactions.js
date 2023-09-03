@@ -42,6 +42,8 @@ async function listarUsuarios() {
     try {
         const response = await axios.put(`${apiUrl}/usuarios/${id}`, datosActualizados);
         console.log(response.data);
+        //Alerta de exito
+        alert("Usuario Editado Exitosamente");
     } catch (error) {
         console.error(error);
     }
