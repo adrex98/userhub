@@ -5,7 +5,7 @@
   async function crearUsuario(usuario) {
     try {
         const response = await axios.post(`${apiUrl}/usuarios`, usuario);
-        alert(response.data);
+        console.log(response.data);
     } catch (error) {
         console.error(error);
     }
