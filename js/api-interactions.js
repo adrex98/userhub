@@ -6,6 +6,9 @@
     try {
         const response = await axios.post(`${apiUrl}/usuarios`, usuario);
         console.log(response.data);
+
+        // Mostrar alerta de exito
+        alert("Usuario creado exitosamente");
     } catch (error) {
         console.error(error);
     }
