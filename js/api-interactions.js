@@ -65,7 +65,11 @@ async function listarUsuarios() {
 
             if (idUsuario === id.toString()) {
                 fila.remove();
-                break; // Una vez encontrada y eliminada la fila, detén el bucle
+
+                //Alerta de Exito 
+                alert("Usuarios Eliminado Exitosamente");
+                
+                break; // Una vez encontrada y eliminada la fila, se detiene el bucle
             }
         }
     } catch (error) {
